@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+
+  <title>ToDo JS</title>
+</head>
+
+<body>
+
+  <button class="btn btn-primary" onclick="toDo.addTaskClick()">Add</button>
+  
+  <li class="list-group-item checkbox">
+    <div class="row">
+      <div class="col-md-1 col-xs-1 col-lg-1 col-sm-1 checkbox">
+       <label><input type="checkbox" value="" class="" checked></label>
+      </div>
+      <div class="col-md-10 col-xs-10 col-lg-10 col-sm-10 task-text complete">
+        First item
+      </div>
+       <div class="col-md-1 col-xs-1 col-lg-1 col-sm-1 delete-icon-area">
+        <a class="" href="/"><i class="delete-icon glyphicon glyphicon-trash"></i></a>
+       </div>
+     </div>
+   </li>
+
+
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
